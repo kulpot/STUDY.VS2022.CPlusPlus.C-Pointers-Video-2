@@ -23,6 +23,9 @@ void main()
 	*pointer2 = 23;
 	cout << *pointer2 << endl;		// 23
 	cout << variable2 << endl;		// 23
+
+	pointer1 = pointer2;
+	cout << *pointer1 << endl;		// 23
 }
 
 
