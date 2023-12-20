@@ -19,6 +19,10 @@ void main()
 
 	pointer2 = &variable2;
 	cout << *pointer2 << endl;		// 10
+
+	*pointer2 = 23;
+	cout << *pointer2 << endl;		// 23
+	cout << variable2 << endl;		// 23
 }
 
 
