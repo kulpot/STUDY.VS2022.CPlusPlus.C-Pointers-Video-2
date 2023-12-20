@@ -8,6 +8,8 @@ using std::endl;
 
 // pointer is just an address
 
+int programImageVariable;
+
 void main()
 {
 	int variable1 = 5;
@@ -27,7 +29,10 @@ void main()
 
 	pointer1 = pointer2;
 	cout << *pointer1 << endl;		// 23
+
+	pointer1 = &programImageVariable;
 }
+
 
 
 
