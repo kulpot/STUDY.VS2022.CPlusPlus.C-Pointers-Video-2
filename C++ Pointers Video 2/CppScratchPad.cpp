@@ -6,6 +6,7 @@ using std::endl;
 // ---------------------------------- C++ Pointers Video 2 --------------------------------------------------
 // ref link:https://www.youtube.com/watch?v=DSeBneAyDx4&list=PLRwVmtr-pp05AW78n3IkMJ3M1dlQ-wgv1&index=2
 
+// pointer is just an address
 
 void main()
 {
