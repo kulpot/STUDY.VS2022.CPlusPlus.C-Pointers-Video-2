@@ -7,7 +7,16 @@ using std::endl;
 // ref link:https://www.youtube.com/watch?v=DSeBneAyDx4&list=PLRwVmtr-pp05AW78n3IkMJ3M1dlQ-wgv1&index=2
 
 
+void main()
+{
+	int variable1 = 5;
+	int variable2 = 10;
+	int* pointer1 = &variable1;
+	int* pointer2 = &variable1;
 
+	cout << *pointer1 << endl;
+	cout << *pointer2 << endl;
+}
 
 
 
