@@ -14,8 +14,11 @@ void main()
 	int* pointer1 = &variable1;
 	int* pointer2 = &variable1;
 
-	cout << *pointer1 << endl;
-	cout << *pointer2 << endl;
+	cout << *pointer1 << endl;		// 5
+	cout << *pointer2 << endl;		// 5
+
+	pointer2 = &variable2;
+	cout << *pointer2 << endl;		// 10
 }
 
 
